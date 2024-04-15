@@ -1,0 +1,32 @@
+body{
+	/* background:#eab676; */
+	background: rgb(234,182,118);
+	background: radial-gradient(circle, rgba(234,182,118,1) 0%, rgba(118,170,234,1) 100%);
+}
+
+#navigation{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	font-family: "Noto Sans Symbols", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0.5px;
+}
+
+#navigation a:hover{color: #ffffff;}
+
+#firstLink{
+	color: ffffff;
+}
+
+#maincontent{
+	margin: 55px 35px 75px 35px;
+}
+
+h1{
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: normal;	
+}
