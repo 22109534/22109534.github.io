@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link href="ICTstyles.css" rel="stylesheet" type="text/css">
+<body>
+
+
+<script>
+
+
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Credit must stay intact for use
+
+var Digital=new Date()
+var hours=Digital.getHours()
+
+//Configure message below to your own.
+if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+document.write('<b>Good morning.</b>')
+else if (hours==12) //MESSAGE FOR NOON
+document.write('<b>It is high noon. Thanks for dropping by!</b>')
+else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+document.write('<b>Good afternoon, and thanks for visiting.</b>')
+else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
+document.write('<b>Good evening. Hope you\'re enjoying the gentle breeze</b>')
+else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
+document.write('<b>Glad to see you this time of the night.</b>')
+else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
+document.write('<b>Wow, thanks for choosing to visit our site over sleep!</b>')
+
+</script>
+
+	<!-- The page div will handle the background colour of the main content, this will be consistent across all pages -->
+		<div id="page">
+			<div id="bannerBlock">
+			<a href="index.htm">
+				<img src="banner_logo/ICTSolutionsLogo.png" alt="ThinkFutureLogo">
+			</div>
+			<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+			<div id="navigation">
+				<div><a href="index.htm">ICT SOLUTIONS</a></div>
+				<div>&nbsp;&dash;&nbsp;</div>
+				<div><a href="tdevelopers.htm">TRAINEE WEB-DEVELOPERS</a></div>
+				<div>&nbsp;&dash;&nbsp;</div>
+				<div><a href="jspecification.htm">JOB SPECIFICATION</a></div>
+				<div>&nbsp;&dash;&nbsp;</div>
+				<div><a href="application.htm">APPLICATION FORM</a></div>
+				<div>&nbsp;&dash;&nbsp;</div>
+				<div><a href="links.htm">DEVELOPMENT COURSE LINKS</a></div>
+			<!-- This closes the 'navigation' div tag -->
+			</div>
+		</div>
+		<div id="maincontent">
+			<center><h1>Trainee Web Developers</h1></center>
+			<center><p><i>We will help you achieve the impossible by providing high quality training, education and work experience with a company that has over 20 years experience.</i></p></center>
+			
+		</div>
+		
+
+
+		<section class="w3-row-padding w3-center w3-light-grey">
+			<article class="w3-third">
+				<p>Carrine</p>
+				<p>Highly motivated Junior Web Developer with experience in building and maintaining web applications.Proficient in HTML, CSS and JavaScript.</p>
+				<img src="images/trainee1.png" alt="ict image" style="width:100%">
+			</article>
+			<article class="w3-third">
+				<p>William</p>
+				<p>Builds, designs, and maintains all websites and software applications. Regulates exposure to executive management as well as other authorities.</p>
+				<img src="images/trainee2.jpg" alt="ict image" style="width:100%">
+			</article>
+			<article class="w3-third">
+				<p>Thomas</p>
+				<p>Designs, writes, and edits website content. Understands UI, cross-browser compatibility, and general web functions and standards.</p>
+				<img src="images/trainee3.jpg" alt="ict image" style="width:100%">
+			</article>
+		</section>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.flickr.com/photos/tags/flicker/"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="https://uk.linkedin.com/"></i></a>
+  <p class="w3-medium">
+    Powered by Bilal Trizai</a>
+  </p>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</body>
+</html>
